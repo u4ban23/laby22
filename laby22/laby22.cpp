@@ -2,19 +2,116 @@
 //
 
 #include <iostream>
+#include <stdio.h>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	// zad1 skip
+
+	// zad3
+	/*int fahr, celsius;
+	int start, limit, krok;
+
+	start = 0;
+	limit = 200;
+	krok = 20;
+
+	for (fahr = 0.0; fahr <=limit; fahr = fahr + krok)
+	{
+		float celsius = (5.0 / 9.0) * (fahr - 32.0);
+		cout << fahr << "\t" << celsius << endl;
+	}*/
+
+	//zad6
+	/*int fahr, celsius;
+	int start, limit, krok;
+
+	cin >> limit;
+	cin >> krok;
+	start = 0;
+	
+
+	for (fahr = 0.0; fahr <= limit; fahr = fahr + krok)
+	{
+		float celsius = (5.0 / 9.0) * (fahr - 32.0);
+		cout << fahr << "\t" << celsius << endl;
+	}
+
+	return 0;*/
+
+	//zad7
+	/*float number;
+	for (int i =0; i < 10; i++){
+		cin >> number;
+		if (number > 0){
+			cout << number << endl;
+		}
+	}*/
+
+
+	//zad8
+	//for (int i = 0; i <= 100; i++) {
+	//	if (i % 2 == 0) {
+	//		cout << i << endl;
+	//	}
+	//}
+
+
+	//zad9
+	/*int n;
+	cin >> n;
+	for (int i = 0; i <= 100; i++) {
+		if (i % n == 0) {
+			cout << i << endl;
+		}
+	}*/
+
+
+	//zad10
+	//int n;
+	//int step = 0;
+	//cin >> n;
+	//for (int i = 0; i <= 100; i++) {
+	//	if (i%n == 0) {
+	//		step++;
+	//	}
+	//}
+	//cout << step << endl;
+
+	//zad11
+
+	//int a, b;
+
+	//cin >> a;
+	//cin >> b;
+	//if (a < b) {
+	//	for (int i = a; i <= b; i++) {
+	//		if (i%3==0) {
+	//			cout << i << endl;
+	//		}
+	//	}
+	//}
+	//else {
+	//	for (int i = b; i <= a; i++) {
+	//		if (i % 3 == 0) {
+	//			cout << i << endl;
+	//		}
+	//	}
+	//}
+	
+	//zad12
+	float n;
+	cin >> n;
+	float suma = 0;
+	float liczba;
+
+	for (int i = 0; i < n; i++) {
+		cin >> liczba;
+		suma += liczba;
+	}
+	float srednia = suma / n;
+	cout << srednia << endl;
+
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
